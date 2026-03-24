@@ -1,0 +1,27 @@
+{
+  "description": "Playwright browser hooks — ensure output dir exists and clean up screenshots",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__plugin_playwright_playwright__browser_navigate",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "mkdir -p $CLAUDE_PROJECT_DIR/.playwright-mcp"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__plugin_playwright_playwright__browser_close",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rm -rf $CLAUDE_PROJECT_DIR/.playwright-mcp/*.png 2>/dev/null; echo 'Screenshots cleaned up from .playwright-mcp/'"
+          }
+        ]
+      }
+    ]
+  }
+}

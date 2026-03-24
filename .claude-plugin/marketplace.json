@@ -1,0 +1,13 @@
+{
+  "name": "claude-for-swe-teams",
+  "owner": {
+    "name": "Shaw"
+  },
+  "plugins": [
+    {
+      "name": "claude-for-swe-teams",
+      "source": "./",
+      "description": "SWE toolkit for the ABA platform — FastHTML, Mux video, lesson authoring, Playwright testing, and frontend design skills with Playwright hooks."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "claude-for-swe-teams",
+  "version": "0.1.0",
+  "description": "SWE toolkit for the ABA platform — FastHTML, Mux video, lesson authoring, Playwright testing, and frontend design skills with Playwright hooks.",
+  "author": {
+    "name": "Shaw"
+  }
+}

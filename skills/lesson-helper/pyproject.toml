@@ -1,0 +1,9 @@
+[project]
+name = "lesson-helper"
+version = "0.1.0"
+description = "AssemblyAI transcription for ABA course lessons"
+requires-python = ">=3.11"
+dependencies = [
+    "assemblyai",
+    "python-dotenv",
+]
