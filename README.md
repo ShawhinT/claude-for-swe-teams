@@ -48,18 +48,18 @@ Add the marketplace and install:
 
 Plugins that define an MCP server register tools under a namespace like `mcp__plugin_<plugin-name>_<server-name>__<tool-name>`. If this plugin bundled its own Playwright server *and* you already had the marketplace Playwright plugin installed, you'd end up with two sets of identical tools under different prefixes, confusing for both you and Claude.
 
-Instead, this plugin depends on the canonical marketplace plugins for MCP servers and layers **skills** (domain knowledge) and **hooks** (automation) on top. This avoids duplicate tool registrations and keeping a single source of truth for each MCP server.
+Instead, this plugin depends on the canonical marketplace plugins for MCP servers and layers **skills** (domain knowledge) and **hooks** (automation) on top. This avoids duplicate tool registrations and keeps a single source of truth for each MCP server.
 
 ## Team vs. Individual Primitives
 
-Not everything belongs in a shared plugin. Here's how to think about it:
+Not everything belongs in a shared plugin. Here's a way to think about it:
 
-**Share at the team level** when the primitive provides:
+#### **Share at the team level** when the primitive provides:
 - Instructions or context for working with **shared tools** (e.g., "how our Jira setup works")
 - **Shared coding standards** the agent should follow (e.g. PR guidelines)
 - **Domain-specific business context** that's consistent across developers (e.g., "how our video pipeline works")
 
-**Keep at the individual level** when the primitive reflects:
+#### **Keep at the individual level** when the primitive reflects:
 - **Workflow preferences** and ergonomic choices
 - **Personal tool configurations**
 - Developer-specific shortcuts or habits
@@ -68,7 +68,7 @@ This is similar to how developers on the same team share a CI pipeline and linti
 
 ## Creating Your Own Team Plugin
 
-The exact contents of this repo will likely not be helpful to you or your team. Instead, it is meant to serve as an example to help you imagine what this might look like for your work.
+The **exact contents of this repo will likely not be helpful** to you or your team. Instead, it is meant to serve as an example to help you imagine what this might look like for your work.
 
 To create your own, you can give the link to Claude as a reference and have it adapt it to your toolkit. An example prompt is shown below. Claude will scaffold the plugin, write the skills, and set up the marketplace config. You fill in the domain knowledge.
 
