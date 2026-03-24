@@ -1,8 +1,10 @@
 # Claude Code for SWE Teams
 
-Companion plugin for the talk **"Claude Code for SWE Teams"**. A reference implementation showing how engineering teams can create shared skills and hooks as a Claude Code plugin. Built from real examples used on the [AI Builder Academy](https://aibuilderacademy.com) platform.
+Companion plugin for the talk: **Claude Code for SWE Teams**. A reference implementation showing how engineering teams can create shared skills and hooks as a Claude Code plugin. Built from real examples used on the [AI Builder Academy](https://aibuilderacademy.com) platform.
 
-[Event recording] (coming soon)
+Resources:
+- [Event page](https://luma.com/1bkn2r3d)
+- [Event recording]
 
 ## What's Inside
 
