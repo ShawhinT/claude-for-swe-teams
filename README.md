@@ -37,12 +37,17 @@ Install these plugins from the **official Anthropic marketplace**:
 
 ## Installation
 
-Add the marketplace and install:
+Run each command one at a time, waiting for it to complete before running the next:
 
 ```
 /plugin marketplace add ShawhinT/claude-for-swe-teams
+```
+
+```
 /plugin install claude-for-swe-teams@claude-for-swe-teams
 ```
+
+Then restart your Claude Code session for the plugin to load.
 
 ## Why MCP Servers Aren't Bundled
 
