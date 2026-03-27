@@ -3,8 +3,9 @@
 Companion plugin for **Claude Code for SWE Teams** talk on Mar 24, 2026. A reference implementation showing how engineering teams can create shared skills and hooks as a Claude Code plugin.
 
 Resources:
-- [Event page](https://luma.com/1bkn2r3d)
+- [Slides](https://drive.google.com/file/d/1bmkFs2VjCH1VKFIaMJcYCRq5oqFxeUb9/view?usp=sharing)
 - [Event recording]
+- [Free Claude Code Course](https://aibuilder.academy/courses/claude-code-course)
 
 ## What's Inside
 
