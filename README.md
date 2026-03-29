@@ -4,7 +4,7 @@ Companion plugin for **Claude Code for SWE Teams** talk on Mar 24, 2026. A refer
 
 Resources:
 - [Slides](https://drive.google.com/file/d/1bmkFs2VjCH1VKFIaMJcYCRq5oqFxeUb9/view?usp=sharing)
-- [Event recording]
+- [Event recording](https://aibuilder.academy/events/claude-code-for-swe-teams)
 - [Free Claude Code Course](https://aibuilder.academy/courses/claude-code-course)
 
 ## What's Inside
